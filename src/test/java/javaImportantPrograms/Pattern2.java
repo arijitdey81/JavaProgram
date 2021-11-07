@@ -11,7 +11,7 @@ public class Pattern2 {
 			System.out.println(res);
 		}
 
-
+		System.out.println("Arijit Dey");
 	}
 
 }

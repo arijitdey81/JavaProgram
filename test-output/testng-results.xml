@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-18T13:24:43Z" name="Suite" finished-at="2021-10-18T13:24:43Z" duration-ms="35">
+    <groups>
+      <group name="regression">
+        <method signature="ContactModule.modifyContact()[pri:0, instance:com.actitime.ContactTestScripts.ContactModule@11f0a5a1]" name="modifyContact" class="com.actitime.ContactTestScripts.ContactModule"/>
+        <method signature="CreateOrg.modifyOrg()[pri:0, instance:com.actitime.OrgTestScripts.CreateOrg@10f7f7de]" name="modifyOrg" class="com.actitime.OrgTestScripts.CreateOrg"/>
+      </group> <!-- regression -->
+      <group name="smoketest">
+        <method signature="ContactModule.createContact()[pri:0, instance:com.actitime.ContactTestScripts.ContactModule@11f0a5a1]" name="createContact" class="com.actitime.ContactTestScripts.ContactModule"/>
+        <method signature="CreateOrg.createOrg()[pri:0, instance:com.actitime.OrgTestScripts.CreateOrg@10f7f7de]" name="createOrg" class="com.actitime.OrgTestScripts.CreateOrg"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test started-at="2021-10-18T13:24:43Z" name="Test" finished-at="2021-10-18T13:24:43Z" duration-ms="35">
+      <class name="com.actitime.OrgTestScripts.CreateOrg">
+        <test-method signature="createOrg()[pri:0, instance:com.actitime.OrgTestScripts.CreateOrg@10f7f7de]" started-at="2021-10-18T13:24:43Z" name="createOrg" finished-at="2021-10-18T13:24:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method signature="modifyOrg()[pri:0, instance:com.actitime.OrgTestScripts.CreateOrg@10f7f7de]" started-at="2021-10-18T13:24:43Z" name="modifyOrg" finished-at="2021-10-18T13:24:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrg -->
+      </class> <!-- com.actitime.OrgTestScripts.CreateOrg -->
+      <class name="com.actitime.ContactTestScripts.ContactModule">
+        <test-method signature="createContact()[pri:0, instance:com.actitime.ContactTestScripts.ContactModule@11f0a5a1]" started-at="2021-10-18T13:24:43Z" name="createContact" finished-at="2021-10-18T13:24:43Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method signature="modifyContact()[pri:0, instance:com.actitime.ContactTestScripts.ContactModule@11f0a5a1]" started-at="2021-10-18T13:24:43Z" name="modifyContact" finished-at="2021-10-18T13:24:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContact -->
+      </class> <!-- com.actitime.ContactTestScripts.ContactModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
